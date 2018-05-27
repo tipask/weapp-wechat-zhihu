@@ -19,13 +19,13 @@
 
 }
 .question-item .que-tag .tag{
-    height: 28rpx;
-    padding: 15rpx 20rpx;
+    height: 24rpx;
+    padding: 6px 20rpx;
     border-radius: 28rpx;
     margin: 0 10rpx;
     background: #EEF5F8;
     color: #2186E0;
-    font-size: 28rpx;
+    font-size: 26rpx;
     vertical-align: middle;
 }
 .question-item .que-title{
@@ -64,7 +64,7 @@
 }
 .question-item .que-follow .right{
     float: right;
-    padding: 20rpx 55rpx;
+    padding: 15rpx 50rpx;
     color: #ffffff;
     background: #52C980;
     border-radius: 3px;
@@ -171,6 +171,9 @@
     /*content: "•";*/
 /*}*/
 
+.answer-txt{
+  font-size: 16px;
+}
 
 
 
