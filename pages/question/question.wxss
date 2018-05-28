@@ -172,7 +172,8 @@
 /*}*/
 
 .answer-txt{
-  font-size: 16px;
+  font-size: 28rpx;
+  line-height:1.3em;
 }
 
 

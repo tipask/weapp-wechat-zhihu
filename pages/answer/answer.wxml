@@ -3,11 +3,11 @@
   <view class="question" bindtap="toQuestion">
     <text class="question-title">选择 Kindle 而不是纸质书的原因是什么？你确定？</text>
   </view>
-  <view class="question-title-action">
+  <view class="question-title-action box-shadow">
     <button size='mini' plain='true'>
-      <image src="../../images/write.png"></image> 写回答
+      <image src="../../images/edit.svg"></image> 写回答
     </button>
-    <text>查看全部1,633个回答 ></text>
+    <text class="view-all">查看全部 <text>1,633</text> 个回答 ></text>
   </view>
   <view class="answerer-wrp">
     <view class="bg-half"></view>
@@ -21,7 +21,7 @@
       </view>
     </view>
   </view>
-  <view class="answer-content">
+  <view class="answer-content box-shadow">
     <text>难道不明白纸质书更贵啊！！！
 
             若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。

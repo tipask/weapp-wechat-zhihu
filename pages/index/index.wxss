@@ -20,9 +20,12 @@
 
 .container .search-left input {
   display: inline-block;
-  height: 65rpx;
+  height: 35rpx;
+  line-height: 35rpx;
   font-size: 26rpx;
   width: calc(100% - 400rpx);
+  display:inline-block;
+  vertical-align:middle;
 }
 
 .search-placeholder {
@@ -31,10 +34,11 @@
 }
 
 .container .search .search-left image {
-  display: inline-block;
-  width: 35rpx;
-  height: 35rpx;
-  padding: 15rpx 15rpx 15rpx 20rpx;
+  display:inline-block;
+  width:35rpx;
+  height:35rpx;
+  padding:15rpx 15rpx 15rpx 10px;
+  vertical-align:middle;
 }
 
 .container .search .search-right {

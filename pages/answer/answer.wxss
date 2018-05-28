@@ -36,7 +36,7 @@
   height: 32rpx;
 }
 
-.question-title-action text {
+.question-title-action text.view-all {
   font-size: 28rpx;
   color: #666;
   float: right;
@@ -46,18 +46,17 @@
 .answerer-wrp {
   position: relative;
   width: 750rpx;
-  height: 150rpx;
-  background: #fff;
+  border-bottom: 1rpx solid #f9f9f9;
 }
 
 .answerer-wrp .bg-half {
   width: 100%;
   height: 20rpx;
-  background: #eee;
+  background: transparent;
 }
 
 .answerer {
-  border-bottom: 1rpx solid #eee;
+  background: #fff;
 }
 
 .answerer .avatar {
