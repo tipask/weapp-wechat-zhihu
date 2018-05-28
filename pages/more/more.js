@@ -21,6 +21,17 @@ Page({
       that.setData({
         userInfo:userInfo
       })
+    });
+
+    wx.getUserInfo({
+      openIdList: ['selfOpenId'],
+      lang: 'zh_CN',
+      success: (res) => {
+        console.log('success', res.data)
+      },
+      fail: (res) => {
+        reject(res)
+      }
     })
   }
 })

@@ -20,10 +20,10 @@
 
 .container .search-left input {
   display: inline-block;
-  height: 35rpx;
-  line-height: 35rpx;
+  height: 44rpx;
+  line-height: 44rpx;
   font-size: 26rpx;
-  width: calc(100% - 400rpx);
+  width: calc(100% - 100rpx);
   display:inline-block;
   vertical-align:middle;
 }
